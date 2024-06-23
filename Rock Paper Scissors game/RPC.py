@@ -2,7 +2,7 @@ import random
 
 def get_user_choice():
     user_input = input("Enter your choice (rock, paper, scissors): ").lower()
-    if user_input in ["rock", "paper", "scissors"]:
+    if user_input in ["paper", "rock", "scissors"]:
         return user_input
     else:
         print("Invalid choice. Please try again.")
